@@ -1,0 +1,63 @@
+<style>
+/* Шрифты и основной фон */
+body {
+background-color: #f2f2f2;
+font-family: sans-serif;
+padding: 20px
+}
+/* Стили для заголовков */
+h1, h2 {
+font-family: serif;
+text-align: center;
+color: #333
+}
+/* Общий контейнер для секций */
+.container {
+max-width: 1000px;
+margin: 0 auto
+}
+/* Секция с карточками */
+.section {
+background-color: #ffffff;
+padding: 25px;
+border-radius: 10px;
+margin-bottom: 30px
+}
+/* FLEXBOX контейнер */
+.flex-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px
+}
+/* GRID контейнер */
+.grid-container {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px
+}
+/* Общий стиль для всех карточек */
+.card {
+width: 150px;
+height: 150px;
+border-radius: 10px;
+color: white;
+/* Центрирование текста по вертикали и горизонтали */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10px
+}
+/* Разные цвета для карточек */
+.card1 { background-color: #e57373 }
+.card2 { background-color: #81c784 }
+.card3 { background-color: #64b5f6 }
+.card4 { background-color: #ffb74d }
+.card5 { background-color: #ba68c8 }
+.card6 { background-color: #4db6ac }
+.card7 { background-color: #7986cb }
+.card8 { background-color: #a1887f }
+.card9 { background-color: #90a4ae }
+.card10 { background-color: #f06292 }
+</style>
