@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Мои карточки</title>
+</head>
+<body>
+<div class="container">
+<h1>Карточки на Flexbox и Grid</h1>
+<!-- Секция с Flexbox -->
+<div class="section">
+<h2>Flexbox</h2>
+<div class="flex-container">
+<div class="card card1">Карточка 1</div>
+<div class="card card2">Карточка 2</div>
+<div class="card card3">Карточка 3</div>
+<div class="card card4">Карточка 4</div>
+<div class="card card5">Карточка 5</div>
+</div>
+</div>
+<!-- Секция с Grid -->
+<div class="section">
+<h2>Grid</h2>
+<div class="grid-container">
+<div class="card card6">Карточка 6</div>
+<div class="card card7">Карточка 7</div>
+<div class="card card8">Карточка 8</div>
+<div class="card card9">Карточка 9</div>
+<div class="card card10">Карточка 10</div>
+</div>
+</div>
+</div>
+</body>
+</html>
